@@ -3,6 +3,8 @@ import { Twitter } from "@styled-icons/boxicons-logos/Twitter";
 import NavItem from "./NavItem";
 
 const Container = styled.div`
+    display: flex;
+    justify-content: center;
     margin: 0;
     min-width: 250px;
 `;
@@ -10,7 +12,8 @@ const Container = styled.div`
 const Box = styled.div`
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
+    justify-content: left;
 `;
 
 const Logo = styled(Twitter)`
