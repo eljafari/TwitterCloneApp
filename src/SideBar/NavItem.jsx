@@ -1,11 +1,11 @@
 import styled from "styled-components";
 import { NumberSymbol } from "@styled-icons/fluentui-system-regular/NumberSymbol";
-import { Home } from "@styled-icons/boxicons-regular/Home";
-import { Notifications } from "@styled-icons/material-rounded/Notifications";
-import { Email } from "@styled-icons/material/Email";
-import { BookmarkStar } from "@styled-icons/boxicons-solid/BookmarkStar";
-import { TextBulletListSquare } from "@styled-icons/fluentui-system-filled/TextBulletListSquare";
-import { AccountCircle } from "@styled-icons/material/AccountCircle";
+import { Home } from "@styled-icons/boxicons-solid/Home";
+import { Notifications } from "@styled-icons/material-outlined/Notifications";
+import { Email } from "@styled-icons/material-outlined/Email";
+import { Bookmark } from "@styled-icons/fluentui-system-regular/Bookmark";
+import { TextBulletListSquare } from "@styled-icons/fluentui-system-regular/TextBulletListSquare";
+import { Person } from "@styled-icons/bootstrap/Person";
 import { MoreCircle } from "@styled-icons/fluentui-system-regular/MoreCircle";
 
 const Container = styled.ul`
@@ -23,60 +23,73 @@ const Item = styled.li`
     align-items: center;
     justify-content: left;
     font-size: 1.2rem;
-`;
-
-const NumberSymbolIcon = styled(NumberSymbol)`
-    width: 30px;
-    height: 30px;
-    margin-right: 10px;
+    &:hover {
+        background-color: #f1f1f1;
+        border-radius: 50px;
+        cursor: pointer;
+    }
 `;
 
 const HomeIcon = styled(Home)`
     width: 30px;
     height: 30px;
-    margin-right: 10px;
+    margin: 15px 20px 15px 0;
+    padding-left: 10px;
+`;
+
+const NumberSymbolIcon = styled(NumberSymbol)`
+    width: 30px;
+    height: 30px;
+    margin: 15px 20px 15px 0;
+    padding-left: 10px;
 `;
 
 const NotificationIcon = styled(Notifications)`
     width: 30px;
     height: 30px;
-    margin-right: 10px;
+    margin: 15px 20px 15px 0;
+    padding-left: 10px;
 `;
 
 const EmailIcon = styled(Email)`
     width: 30px;
     height: 30px;
-    margin-right: 10px;
+    margin: 15px 20px 15px 0;
+    padding-left: 10px;
 `;
 
-const BookmarkStarIcon = styled(BookmarkStar)`
+const BookmarkStarIcon = styled(Bookmark)`
     width: 30px;
     height: 30px;
-    margin-right: 10px;
+    margin: 15px 20px 15px 0;
+    padding-left: 10px;
 `;
 
 const TextBulletListSquareIcon = styled(TextBulletListSquare)`
     width: 30px;
     height: 30px;
-    margin-right: 10px;
+    margin: 15px 20px 15px 0;
+    padding-left: 10px;
 `;
 
-const AccountCircleIcon = styled(AccountCircle)`
+const AccountCircleIcon = styled(Person)`
     width: 30px;
     height: 30px;
-    margin-right: 10px;
+    margin: 15px 20px 15px 0;
+    padding-left: 10px;
 `;
 
 const MoreCircleIcon = styled(MoreCircle)`
     width: 30px;
     height: 30px;
-    margin-right: 10px;
+    margin: 15px 20px 15px 0;
+    padding-left: 10px;
 `;
 
 function NavItem() {
     const ItemText = [
-        { icon: NumberSymbolIcon, text: "Home" },
-        { icon: HomeIcon, text: "Explore" },
+        { icon: HomeIcon, text: "Home" },
+        { icon: NumberSymbolIcon, text: "Explore" },
         { icon: NotificationIcon, text: "Notifications" },
         { icon: EmailIcon, text: "Messages" },
         { icon: BookmarkStarIcon, text: "Bookmarks" },
@@ -88,7 +101,7 @@ function NavItem() {
     return (
         <Container>
             {ItemText.map((item, index) => (
-                <Item>
+                <Item key={index}>
                     <item.icon />
                     {item.text}
                 </Item>

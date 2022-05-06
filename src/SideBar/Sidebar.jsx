@@ -12,7 +12,6 @@ const Container = styled.div`
 const Box = styled.div`
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     justify-content: left;
 `;
 
@@ -23,6 +22,7 @@ const Logo = styled(Twitter)`
 `;
 
 const Button = styled.button`
+    margin-top: 10px;
     color: white;
     font-size: 1.1rem;
     font-weight: 600;
