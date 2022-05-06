@@ -1,0 +1,72 @@
+.create-post-container {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 1rem;
+    margin: 0;
+    width: 100%;
+    max-width: 650px;
+}
+
+
+.user-profile-image {
+    padding: .5rem 1rem;
+}
+
+.user-profile-image img {
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    outline: 1px solid var(--twitter-background)
+}
+
+.new-post-content {
+    width: 100%;
+    padding: 1rem;
+}
+
+.new-post-content input {
+    border: none;
+    outline: none;
+    font-size: 22px;
+}
+
+.new-post-content input::-webkit-input-placeholder {
+    font-size: 22px;
+}
+
+.new-post-additional {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action-icons {
+    color: var(--twitter-color) !important;
+    padding: .3rem !important;
+    margin-right: .5rem !important;
+}
+
+.action-icons:hover {
+    background-color: rgba(47, 155, 240, 10%) !important;
+}
+
+.tweet-btn {
+    border-radius: 25px !important;
+    font-size: 16px;
+    font-weight: 800;
+    background-color: var(--twitter-color);
+    color: white;
+    padding: .5rem 1rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.tweet-btn:hover {
+    background-color: rgb(35, 122, 189) !important;
+}
+
+.tweet-btn:focus {
+    outline: 3px solid rgba(47, 155, 240, 30%) !important;
+}
