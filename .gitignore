@@ -5,7 +5,8 @@ logs
 **/*.backup.*
 **/*.back.*
 
-node_modules
+# dependencies
+/node_modules
 bower_components
 
 *.sublime*
