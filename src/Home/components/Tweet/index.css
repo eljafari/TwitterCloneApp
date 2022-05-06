@@ -1,0 +1,63 @@
+.tweet-container {
+    display: flex;
+    justify-content: flex-start;
+    padding: 1rem;
+    margin: 0;
+    width: 100%;
+    max-width: 650px;
+    border: 1px solid var(--twitter-background);
+}
+
+.tweet-user-img {
+    padding: 1rem;
+}
+
+.tweet-user-img img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.tweet {
+    padding: 0 1rem;
+}
+
+.tweet-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title .fName {
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.title { 
+    color: #536471;
+    font-size: 16px;
+}
+
+.verified {
+    font-size: 16px;
+    color: var(--twitter-color) !important;
+}
+
+.tweet-body p { 
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.tweet-body img {
+    margin: 1rem 0;
+    border-radius: 10px;
+    max-width: 550px;
+    max-height: 285px;
+}
+
+.tweet-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

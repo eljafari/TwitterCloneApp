@@ -1,0 +1,46 @@
+.suggestion-section {
+    background-color: #F7F9F9;
+    border-radius: 10px;
+    width: 80%;
+    padding: 1rem;
+    margin: 1rem auto;
+}
+
+.suggestion-header h2 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.suggestion-body {
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.suggestion-content {
+    padding: .5rem 0;
+
+}
+
+.suggestion-img {
+    height: 68px;
+    width: 68px;
+    border-radius: 10px;
+}
+
+.font-size-13 {
+    font-size: 13px;
+}
+
+.font-size-15 {
+    font-size: 15px;
+}
+
+.font-weight-700 {
+    font-weight: 700;
+}
+
+.suggestion-grey-text {
+    color: #536471;
+}
