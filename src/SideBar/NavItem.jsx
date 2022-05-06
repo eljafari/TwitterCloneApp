@@ -17,6 +17,7 @@ const Container = styled.ul`
 
 const Item = styled.li`
     width: 200px;
+    background-color: saddlebrown;
     list-style: none;
     display: flex;
     align-items: center;
@@ -24,66 +25,58 @@ const Item = styled.li`
     font-size: 1.2rem;
 `;
 
-const HomeIcon = styled(Home)`
-    width: 30px;
-    height: 30px;
-    margin-right: 10px;
-    margin: 10px 0;
-`;
-
 const NumberSymbolIcon = styled(NumberSymbol)`
     width: 30px;
     height: 30px;
     margin-right: 10px;
-    margin: 10px 0;
+`;
+
+const HomeIcon = styled(Home)`
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
 `;
 
 const NotificationIcon = styled(Notifications)`
     width: 30px;
     height: 30px;
     margin-right: 10px;
-    margin: 10px 0;
 `;
 
 const EmailIcon = styled(Email)`
     width: 30px;
     height: 30px;
     margin-right: 10px;
-    margin: 10px 0;
 `;
 
 const BookmarkStarIcon = styled(BookmarkStar)`
     width: 30px;
     height: 30px;
     margin-right: 10px;
-    margin: 10px 0;
 `;
 
 const TextBulletListSquareIcon = styled(TextBulletListSquare)`
     width: 30px;
     height: 30px;
     margin-right: 10px;
-    margin: 10px 0;
 `;
 
 const AccountCircleIcon = styled(AccountCircle)`
     width: 30px;
     height: 30px;
     margin-right: 10px;
-    margin: 10px 0;
 `;
 
 const MoreCircleIcon = styled(MoreCircle)`
     width: 30px;
     height: 30px;
     margin-right: 10px;
-    margin: 10px 0;
 `;
 
 function NavItem() {
     const ItemText = [
-        { icon: HomeIcon, text: "Home" },
-        { icon: NumberSymbolIcon, text: "Explore" },
+        { icon: NumberSymbolIcon, text: "Home" },
+        { icon: HomeIcon, text: "Explore" },
         { icon: NotificationIcon, text: "Notifications" },
         { icon: EmailIcon, text: "Messages" },
         { icon: BookmarkStarIcon, text: "Bookmarks" },
