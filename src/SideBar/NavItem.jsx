@@ -17,7 +17,7 @@ const Container = styled.ul`
 
 const Item = styled.li`
     width: 200px;
-    background-color: saddlebrown;
+    /* background-color: saddlebrown; */
     list-style: none;
     display: flex;
     align-items: center;
