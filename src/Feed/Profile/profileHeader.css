@@ -1,0 +1,89 @@
+.profileHeader{
+    position: relative;
+      /* top: 10%; */
+      /* z-index: 1; */
+}
+.profileHeader_photo{
+    
+    position: relative;
+      /* top: 5px; */
+      left: 20px;
+}
+.profileHeader_info{
+    position: relative;
+    top:-30px;
+    margin-left: 20px;
+
+}
+.follow_avatar{
+    position: relative;
+    top:-50px;
+    left: 40px;
+    z-index: 2;
+}
+.profileHeader_follow{
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 2;
+}
+.followOption .css-i4bv87-MuiSvgIcon-root {
+    border: 1px solid var(--twitter-background) !important;
+    border-radius: 50% !important;
+    padding: 5px !important;
+    fill: var(--twitter-textgrey);
+
+}
+.follow-unfollow{
+    border: 1px solid var(--twitter-background) !important;
+    border-radius: 25px !important;
+}
+.follow-unfollow div{
+    padding: 5px !important;
+    color: var(--twitter-textgrey);
+
+}
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root{
+    min-width: 40px !important;
+    padding: 5px 0px !important;
+}
+ /* css-8je8zh-MuiTouchRipple-root */
+.MuiTouchRipple-root{
+    margin: 0 !important;
+}
+.follow_avatar img{
+    border-radius: 50%;
+    height: 120px;
+    border: 3px solid white;
+}
+.profileHeader_fullName  h2{
+    font-size: 20px;
+    font-weight: 800;
+    padding-right: 5px;
+}
+.profileHeader_fullName{
+    margin-top: -20px;
+    display: flex;
+    align-items: center;
+}
+.profileHeader_username{
+    color: var(--twitter-textgrey);
+
+}
+.profileHeader_description{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.profileHeader_location, .profileHeader_link{
+    display: flex;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    padding: 10px;
+}
+.following, .followers{
+    color: var(--twitter-textgrey);
+}

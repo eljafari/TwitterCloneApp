@@ -1,0 +1,30 @@
+.home {
+    flex: 0.4;
+    border-right: 1px solid var(--twitter-background);
+    min-width: fit-content;
+    overflow-y: scroll;
+}
+
+.home::-webkit-scrollbar{
+    display: none;
+}
+
+.home-header-container {
+    border: 1px solid var(--twitter-background);
+}
+
+.home-header {
+    position: sticky;
+    background-color: white;
+    z-index: 100;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 1rem .5rem 1.5rem;
+}
+
+.home-header-content h2 {
+    font-size: 20px;
+    font-weight: 800;
+}

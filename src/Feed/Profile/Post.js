@@ -10,16 +10,10 @@ import MoreHorizOutlinedIcon from '@mui/icons-material/MoreHorizOutlined';
 
 export default function Post({fullName, username, verified, date,text,image,avatar})
  {
-    // displayName,
-    // username,
-    // verified, 
-    // text,
-    // image,
-    // avatar,
   return (
     <div className='post'>
         <div className='post_avatar'>
-            <Avatar className='post-avatarimg' src='https://img.freepik.com/free-vector/smiling-girl-avatar_102172-32.jpg' />
+            <Avatar className='post-avatarimg' src='https://pbs.twimg.com/profile_images/1414439092373254147/JdS8yLGI_400x400.jpg' />
         </div>
         <div className='post-body'>
             <div className='post-header' >
@@ -53,8 +47,6 @@ export default function Post({fullName, username, verified, date,text,image,avat
                 <RepeatOutlinedIcon fontSize='small'/>
                 <FavoriteBorderOutlinedIcon fontSize='small'/>
                 <IosShareOutlinedIcon fontSize='small'/>
-
-
             </div>
         </div>
     </div>

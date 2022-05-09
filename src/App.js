@@ -1,20 +1,26 @@
-import Feed  from './Feed/Feed';
 import './App.css';
-import Sidebar from './SideBar/Sidebar';
 import './Widgets/Widgets.css'
-import Widgets from './Widgets/Widgets';
-
+import { HomeApp, Profile} from "./Pages"
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  useRoutes,
+} from "react-router-dom";
 function App() {
-  return (
-    <div className="app">
-     {/* SideBar */}
-    <Sidebar/>
-     {/* Feed */}
-    <Feed/>
-     {/* Widgets */}
-     <Widgets/>
-    </div>
-  );
+  let routes = useRoutes([
+    { path: "/", element: <HomeApp/> },
+    { path:'/profile', element:<Profile/> },
+    { path:'*', element:<HomeApp/> },
+  ]);
+  return routes;
+};
+  const AppWrapper = () => {
+    return (
+      <Router>
+        <App />
+      </Router>
+    );  
 }
 
-export default App;
+export default AppWrapper;

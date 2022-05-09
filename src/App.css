@@ -1,7 +1,7 @@
 body{
     --twitter-color:#2f9bf0 ;
-    --twitter-background:#eff3f4;
-    --twitter-textgrey:#586875;
+    --twitter-background:#e0e3e3;
+    --twitter-textgrey:#535e67;
 }
 .app{
     display: flex;
