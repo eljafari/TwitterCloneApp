@@ -7,7 +7,7 @@ const CreatePost = () => {
     return (
         <div className='create-post-container'>
                 <div className='user-profile-image'>
-                    <img src='https://img.freepik.com/free-vector/smiling-girl-avatar_102172-32.jpg'  />
+                    <img src='https://pbs.twimg.com/profile_images/1414439092373254147/JdS8yLGI_400x400.jpg'  />
                 </div>
                 <div className='new-post-content'>
                     <div>
@@ -35,9 +35,9 @@ const CreatePost = () => {
                             </IconButton>
                         </div>
                         <div>
-                            <button className='tweet-btn' variant='contained'>
+                            <Button className='tweet-btn' variant='contained'>
                                 Tweet
-                            </button>
+                            </Button>
                         </div>
                     </div>
                 </div>

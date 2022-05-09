@@ -52,21 +52,14 @@
 }
 
 .tweet-btn {
-    border-radius: 25px !important;
-    font-size: 16px;
-    font-weight: 800;
-    background-color: var(--twitter-color);
-    color: white;
-    padding: .5rem 1rem;
-    border: none;
-    outline: none;
-    cursor: pointer;
+    border-radius: 30px !important;
+    border: none !important;
+    background-color: var(--twitter-color) !important;
+    color: white !important;
+    font-weight: 900 !important;
+    margin-top: 20px !important;
+    padding: 10px !important;
+    text-transform: inherit !important;
+    margin-left: 30px !important;
 }
 
-.tweet-btn:hover {
-    background-color: rgb(35, 122, 189) !important;
-}
-
-.tweet-btn:focus {
-    outline: 3px solid rgba(47, 155, 240, 30%) !important;
-}

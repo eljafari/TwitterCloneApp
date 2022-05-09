@@ -9,9 +9,6 @@ import CreatePost from './components/CreatePost';
 const Home = () => {
     const [tweets, setTweets] = useState([]);
 
-    /**
-     * When component is rendered for the first time
-     */
     useEffect(() => {
         getData();
     }, []);
@@ -49,7 +46,6 @@ const Home = () => {
             }
         </div> 
     )
-
 }
 
 export default Home;

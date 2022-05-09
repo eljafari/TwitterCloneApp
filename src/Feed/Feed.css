@@ -3,7 +3,6 @@
     border-right: 1px solid var(--twitter-background);
     min-width: fit-content;
     overflow-y: scroll;
-
 }
 .feed_header{
     position: sticky;
@@ -12,8 +11,15 @@
     z-index: 100;
     border: 1px solid var(--twitter-background);
     padding: 15px 5px;
+}
+.feed_headertitle{
     display: flex;
     align-items: center;
+}
+.feed_headertweet{
+    margin-left: 70px;
+    color: var(--twitter-textgrey);
+    font-size: 14px;
 }
 .feed_header h2{
     font-size: 20px;

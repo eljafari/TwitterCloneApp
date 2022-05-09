@@ -1,9 +1,10 @@
 .suggestion-section {
-    background-color: #F7F9F9;
-    border-radius: 10px;
-    width: 80%;
-    padding: 1rem;
-    margin: 1rem auto;
+    width:300px;
+    margin-top:10px;
+    margin-left:20px;
+    padding:20px;
+    background-color:#f7f9f9;
+    border-radius:20px;
 }
 
 .suggestion-header h2 {

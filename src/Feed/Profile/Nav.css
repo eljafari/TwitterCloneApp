@@ -1,0 +1,20 @@
+.nav{
+    border-bottom: 1px solid var(--twitter-background);
+}
+.navButton{
+    background-color:white !important;
+    color: var(--twitter-textgrey) !important;
+    border: none !important;
+   
+}
+.navButton:hover{
+    background-color: var(--twitter-background) !important;
+}
+.navButtonGroup{
+    display: flex !important;
+    justify-content: space-around !important;
+    font-weight: 900;
+}
+.navButtonGroup div:hover{
+    background-color: var(--twitter-background);
+}
