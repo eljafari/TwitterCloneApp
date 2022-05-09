@@ -3,8 +3,6 @@ import './Widgets/Widgets.css'
 import { HomeApp, Profile} from "./Pages"
 import {
   BrowserRouter as Router,
-  Routes,
-  Route,
   useRoutes,
 } from "react-router-dom";
 function App() {

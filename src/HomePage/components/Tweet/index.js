@@ -5,7 +5,6 @@ import './index.css';
 
 const Tweet = ({tweetInfo, index}) => {
     const { fullName, username, date, verified, text, image } = tweetInfo;
-
     const convertDateTime = (dateTimeString) => {
         const nowMs = new Date().getTime();
         const dateTime = new Date(dateTimeString);
@@ -65,5 +64,4 @@ const Tweet = ({tweetInfo, index}) => {
         </div>
     )
 }
-
 export default Tweet;

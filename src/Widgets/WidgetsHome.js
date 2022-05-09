@@ -3,7 +3,6 @@ import Suggestions from '../HomePage/components/Suggestions';
 import './Widgets.css';
 import SearchIcon from '@mui/icons-material/Search';
 
-
 export default function WidgetsHome() {
   return (
     <div className='widgets'>

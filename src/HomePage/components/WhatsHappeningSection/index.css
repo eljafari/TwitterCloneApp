@@ -6,19 +6,16 @@
     background-color:#f7f9f9;
     border-radius:20px;
 }
-
 .suggestion-header h2 {
     font-size: 20px;
     font-weight: 700;
 }
-
 .suggestion-body {
     padding: 1rem 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 .suggestion-content {
     padding: .5rem 0;
 

@@ -36,7 +36,7 @@ const CreatePost = () => {
                         </div>
                         <div>
                             <Button className='tweet-btn' variant='contained'>
-                                Tweet
+                             Tweet
                             </Button>
                         </div>
                     </div>
@@ -44,5 +44,4 @@ const CreatePost = () => {
         </div>
     )
 }
-
 export default CreatePost;

@@ -8,7 +8,6 @@ const WhatsHappeningSection = () => {
     useEffect(() => {
         setSuggestions(suggesionDummyData);
     }, []);
-
     return (
         <div className="suggestion-section">
             <div className="suggestion-header">
@@ -35,5 +34,4 @@ const WhatsHappeningSection = () => {
         </div>
     )
 }
-
 export default WhatsHappeningSection;

@@ -16,7 +16,6 @@ export default function Widgets() {
       setPosts(snapshot.docs.map((doc) => doc.data()))
     );
   }, []);
-
   return (
     <div className='widgets'>
       <div className='widgets_input'>
@@ -41,8 +40,7 @@ export default function Widgets() {
             url={"https://twitter.com/elhamjafari20"}
             options={{text:"#reactjs Learner's Account who is passionate about coding :)",via:"elhamjafari20"}}
             />
-        </div>
-        
+        </div>       
       </div>
     </div>
   )

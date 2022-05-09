@@ -15,7 +15,6 @@
     outline: none;
     background-color: var(--twitter-background);
   }
-
 .widgets-seachIcon{
     color: var(--twitter-textgrey);
 }
@@ -32,7 +31,6 @@
     grid-template-rows: 120px 120px;
     z-index: 5;
 }
-
 .widgetNews{
     
     width:300px;
@@ -52,7 +50,5 @@
     margin: 0 5px;
     width: 130px;
     padding: 0px;
-    
-    
 }
 

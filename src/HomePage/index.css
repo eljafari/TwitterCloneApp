@@ -4,15 +4,12 @@
     min-width: fit-content;
     overflow-y: scroll;
 }
-
 .home::-webkit-scrollbar{
     display: none;
 }
-
 .home-header-container {
     border: 1px solid var(--twitter-background);
 }
-
 .home-header {
     position: sticky;
     background-color: white;

@@ -12,11 +12,9 @@ const Home = () => {
     useEffect(() => {
         getData();
     }, []);
-
     const getData = () => {
         setTweets(dummyData);
     }
-
     return (
         <div className='home'>
             <div className='home-header-container'>

@@ -30,7 +30,6 @@ export default function Sidebar() {
         <Link to="/more" ><SidebarOption icon={<MoreHorizIcon/>} text="More"/> </Link>
         <Button className='sidebar-tweet' variant='outlined' fullWidth>
           Tweet</Button>
-
     </div>
   )
 }

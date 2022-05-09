@@ -16,7 +16,6 @@ export default function TweetBox() {
             <Avatar src='https://pbs.twimg.com/profile_images/1414439092373254147/JdS8yLGI_400x400.jpg' />
             <input placeholder='Whats Happening?' />
             </div>
-            
             <div>
             <Button className='tweetbox-sharebutton'>
                 <InsertPhotoOutlinedIcon/>
@@ -36,15 +35,10 @@ export default function TweetBox() {
             <Button className='tweetbox-sharebutton'>
                 <LocationOnOutlinedIcon/>
             </Button>
-           
             <Button className='tweetbox-button'>
                 Tweet
             </Button>
             </div>
-            
-
-           
-
         </form>
     </div>
   )

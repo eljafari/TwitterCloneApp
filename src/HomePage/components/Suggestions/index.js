@@ -8,5 +8,4 @@ const Suggestions = () => {
         </div> 
     )
 };
-
 export default Suggestions;
