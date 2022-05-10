@@ -3,7 +3,7 @@ import { ChatBubbleOutlineOutlined, FavoriteBorderOutlined, IosShareOutlined, Mo
 import { monthsStringMap } from '../../constants/month-const';
 import './index.css';
 
-const Tweet = ({tweetInfo, index}) => {
+const Tweet = ({ tweetInfo, index }) => {
     const { fullName, username, date, verified, text, image } = tweetInfo;
     const convertDateTime = (dateTimeString) => {
         const nowMs = new Date().getTime();
@@ -28,7 +28,7 @@ const Tweet = ({tweetInfo, index}) => {
                 <div className='tweet-header'>
                     <div className='title'>
                         <span className='fName'> {fullName} </span>
-                        <span> { verified && <Verified className='verified' fontSize='small'/> } </span>
+                        <span> {verified && <Verified className='verified' fontSize='small' />} </span>
                         <span className='uName'> @{username} </span>
                         <span> . </span>
                         <span>{convertDateTime(date)}</span>
@@ -42,26 +42,30 @@ const Tweet = ({tweetInfo, index}) => {
                 <div className='tweet-body'>
                     <p>{text}</p>
                     {
-                        image && 
+                        image &&
                         <img src={`https://picsum.photos/550/300?random=${index + 40}`} alt='Tweet Image' />
                     }
                 </div>
                 <div className='tweet-footer'>
                     <IconButton>
-                        <ChatBubbleOutlineOutlined fontSize='small'/>
+                        <ChatBubbleOutlineOutlined fontSize='small' />
                     </IconButton>
                     <IconButton>
-                        <RepeatOutlined fontSize='small'/>
+                        <RepeatOutlined fontSize='small' />
                     </IconButton>
                     <IconButton>
-                        <FavoriteBorderOutlined fontSize='small'/>
+                        <FavoriteBorderOutlined fontSize='small' />
                     </IconButton>
                     <IconButton>
-                        <IosShareOutlined fontSize='small'/>
+                        <IosShareOutlined fontSize='small' />
                     </IconButton>
                 </div>
             </div>
         </div>
     )
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
 export default Tweet;

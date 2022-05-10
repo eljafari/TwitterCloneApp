@@ -5,7 +5,7 @@ const Suggestions = () => {
     return (
         <div>
             <WhatsHappeningSection />
-        </div> 
+        </div>
     )
 };
 export default Suggestions;

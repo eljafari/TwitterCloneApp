@@ -6,19 +6,24 @@
     width: 100%;
     max-width: 650px;
 }
+
+
 .user-profile-image {
     padding: .5rem 1rem;
 }
+
 .user-profile-image img {
     height: 48px;
     width: 48px;
     border-radius: 50%;
     outline: 1px solid var(--twitter-background)
 }
+
 .new-post-content {
     width: 100%;
     padding: 1rem;
 }
+
 .new-post-content input {
     border: none;
     outline: none;
@@ -57,4 +62,3 @@
     text-transform: inherit !important;
     margin-left: 30px !important;
 }
-

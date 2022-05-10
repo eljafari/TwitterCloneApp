@@ -24,7 +24,7 @@ const Home = () => {
                     </div>
                     <div>
                         <IconButton>
-                            <AutoAwesomeOutlined /> 
+                            <AutoAwesomeOutlined />
                         </IconButton>
                     </div>
                 </div>
@@ -42,7 +42,7 @@ const Home = () => {
                     />
                 ))
             }
-        </div> 
+        </div>
     )
 }
 

@@ -1,3 +1,27 @@
+
+# WeatheReact
+
+**Title**
+React Twitter Clone App 
+
+**About (User Story)**
+The requirment for this assignment was design the Twitter website with same UI in react.js which have two pages, Home and Profile
+
+**Features:**
+It has three main components, sidebar, Feed, and Widget that each part has its own components.
+In this project for Profile page I used Firebase database to get the data and also I used material ui design. 
+
+**Docs:**
+Here is the components and screen shot of pages.
+
+![2022_04_26_0jf_Kleki](https://user-images.githubusercontent.com/89866910/167489161-e5806b24-8ebb-4b31-b8f2-2070bacff23b.png)
+![Home](https://user-images.githubusercontent.com/89866910/167488838-358eeac2-13eb-4a9a-8f7e-908856dfa708.png)
+![Profile](https://user-images.githubusercontent.com/89866910/167488844-f010e453-1cd6-4f2a-aae8-dca594f3f367.png)
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
