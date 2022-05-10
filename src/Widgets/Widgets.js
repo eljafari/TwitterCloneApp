@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import React from 'react';
-import SearchBox from '../Home/components/Search';
-import Suggestions from '../Home/components/Suggestions';
-import WhatsHappeningSection from '../Home/components/WhatsHappeningSection';
+// import SearchBox from '../Home/components/Search';
+// import Suggestions from '../Home/components/Suggestions';
+// import WhatsHappeningSection from '../Home/components/WhatsHappeningSection';
 import './Widgets.css';
 import SearchIcon from '@mui/icons-material/Search';
 import {

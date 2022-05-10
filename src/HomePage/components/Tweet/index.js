@@ -64,8 +64,4 @@ const Tweet = ({ tweetInfo, index }) => {
         </div>
     )
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> main
 export default Tweet;
