@@ -4,11 +4,10 @@ import './index.css';
 
 const WhatsHappeningSection = () => {
     const [suggestions, setSuggestions] = useState([]);
-    
+
     useEffect(() => {
         setSuggestions(suggesionDummyData);
     }, []);
-
     return (
         <div className="suggestion-section">
             <div className="suggestion-header">
@@ -26,14 +25,13 @@ const WhatsHappeningSection = () => {
                             </div>
                         </div>
                         <div>
-                            {s.image && <img className='suggestion-img' src={`https://picsum.photos/550/300?random=${index + 80}`} alt='Tweet Image'/>}
+                            {s.image && <img className='suggestion-img' src={`https://picsum.photos/550/300?random=${index + 80}`} alt='Tweet Image' />}
                         </div>
                     </div>
                 ))
             }
-           
+
         </div>
     )
 }
-
 export default WhatsHappeningSection;

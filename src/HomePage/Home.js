@@ -12,11 +12,9 @@ const Home = () => {
     useEffect(() => {
         getData();
     }, []);
-
     const getData = () => {
         setTweets(dummyData);
     }
-
     return (
         <div className='home'>
             <div className='home-header-container'>
@@ -26,7 +24,7 @@ const Home = () => {
                     </div>
                     <div>
                         <IconButton>
-                            <AutoAwesomeOutlined /> 
+                            <AutoAwesomeOutlined />
                         </IconButton>
                     </div>
                 </div>
@@ -44,7 +42,7 @@ const Home = () => {
                     />
                 ))
             }
-        </div> 
+        </div>
     )
 }
 
