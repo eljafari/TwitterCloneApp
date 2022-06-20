@@ -17,9 +17,9 @@ In this project for Profile page I used Firebase database to get the data and al
 Here is the components and screen shot of pages.
 
 ![2022_04_26_0jf_Kleki](https://user-images.githubusercontent.com/89866910/167489161-e5806b24-8ebb-4b31-b8f2-2070bacff23b.png)
-
+-------------------------------------------------------------------------------------------------------
 ![Home](https://user-images.githubusercontent.com/89866910/167488838-358eeac2-13eb-4a9a-8f7e-908856dfa708.png)
-
+-------------------------------------------------------------------------------------------------------
 ![Profile](https://user-images.githubusercontent.com/89866910/167488844-f010e453-1cd6-4f2a-aae8-dca594f3f367.png)
 
 
